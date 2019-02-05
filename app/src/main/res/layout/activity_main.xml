@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBCD73"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BasketBall"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="50dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/user_edit_text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="#000"
+        android:background="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/pass_edit_text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:background="#ffff
+"/>
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
